@@ -41,12 +41,7 @@ pip install -r requirements.txt
 -   打开新建的 `.env` 文件，填入您的模型服务提供商的API密钥和API地址。
     ```env
     # .env
-
-    # 【必填】你的大模型服务API密钥
     OPENAI_COMPATIBLE_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-
-    # 【可选】你的大模型服务API地址
-    # 如果留空，将使用 settings.json 中的默认值
     OPENAI_COMPATIBLE_API_BASE="https://api.your-provider.com/v1"
     ```
 -   **重要**: `.env` 文件包含了您的私人密钥，请确保不要将它提交到任何版本控制系统（如Git）。
