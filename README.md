@@ -50,3 +50,16 @@ pip install -r requirements.txt
 ```bash
 streamlit run run_webapp.py
 ```
+---
+
+## 核心技术与依赖库 (Core Technologies & Libraries)
+
+本项目能够实现，离不开以下优秀的开源项目和学术理念。在此向它们的开发者和研究者表示诚挚的感谢。
+
+*   **[Streamlit](https://streamlit.io/)**: 用于快速构建和部署数据驱动的交互式 Web 应用界面。
+*   **[Camel (Communicative Agents for "Mind" Exploration of Large Language Model)](https://github.com/camel-ai/camel)**: 作为驱动多智能体（Multi-Agent）协作、对话和工具使用的核心框架。
+*   **[Pydantic](https://docs.pydantic.dev/)**: 用于强制大型语言模型（LLM）生成结构化的、可验证的 JSON 输出，是确保数据一致性的关键。
+*   **[FSRS (Free Spaced Repetition Scheduler)](https://github.com/open-spaced-repetition/fsrs-rs)**: 作为项目间隔重复记忆机制的设计蓝本和理论基础，指导了我们对记忆卡片复习功能的设计与规划。
+*   **[OpenAI Python Library](https://github.com/openai/openai-python)**: 用于与底层的大型语言模型 API (如 GPT-4) 进行稳定、高效的通信。
+
+完整的依赖列表请参见 `requirements.txt` 文件。
