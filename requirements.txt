@@ -1,0 +1,12 @@
+# === Core Frameworks ===
+camel-ai==0.2.0
+streamlit==1.33.0
+pydantic
+
+# === Spaced Repetition System ===
+fsrs
+
+# === Utilities ===
+python-dotenv==1.0.1
+PyMuPDF
+colorama==0.4.6 

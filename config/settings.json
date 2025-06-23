@@ -1,0 +1,11 @@
+{
+    "model_config": {
+        "url": "https://api.siliconflow.cn/v1",
+        "api_key": "sk-qullgfjnwatfbztwedpwajnagikznfbimlotgxhlloyrbkax",
+        "model_type": "deepseek-ai/DeepSeek-R1",
+        "temperature": 0.1
+    },
+    "app_settings": {
+        "default_user_id": "webapp_user_01"
+    }
+}

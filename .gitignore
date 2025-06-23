@@ -1,0 +1,13 @@
+# 敏感信息
+.env
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE & OS specific
+.vscode/
+.idea/
+.DS_Store 
